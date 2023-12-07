@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 import hamburger from '../images/hamburger.png'
 
 function Navbar() {
-  const [dropdown, setDropdown] = useState(false)
+  const [dropdown, setDropdown] = useState(true)
 
   return (
     <nav className={styles.navwrapper}>
