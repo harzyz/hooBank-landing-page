@@ -1,0 +1,495 @@
+.wrapper{
+  width: 100%;
+  height: 100%;
+  background: #030712;
+  font-family: 'Poppins';
+}
+.hero{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.heroText{
+  /* border: 2px solid green; */
+  width: 55%;
+  color: #FFF;
+  padding-left: 70px;
+  padding-top: 70px;
+  position: relative;
+}
+.glare{
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 80px;
+  background-color: #FFF;
+  filter: blur(125px);
+}
+button{
+  cursor: pointer;
+}
+.getstarted{
+  position: absolute;
+  top: 120px;
+  right: 30px;
+  text-align: left;
+  font-family: 'Poppins';
+  font-size: 18px;
+  padding: 25px;
+  background: #070A16;
+  color: #7DE7EB;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #7DE7EB;
+  cursor: pointer;
+}
+.getstarted:hover{
+  color: #030712;
+  background-color: #7DE7EB;
+}
+.arrow{
+  position: absolute;
+  top: 157px;
+  right: 65px;
+}
+.heroImage{
+  /* border: 2px solid tomato; */
+  position: relative;
+  width: 45%;
+}
+.glare2{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border-radius: 50%;
+  left: 60px;
+  top: 50px;
+  background-color:  #376793;
+  filter: blur(200px);
+}
+.robotArm{
+  width: 100%;
+  height: 100%;
+}
+.motto{
+  font-size: 72px;
+  font-family: 'Poppins';
+  font-size: 72px;
+  font-weight: 600;
+  margin: 0;
+}
+.generation{
+  background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+  color: transparent;
+  background-clip: text;
+}
+.caption{
+  width: 100%;
+  font-family: 'Poppins';
+  color: #ffffffb3;
+}
+.discount{
+  width: 390px;
+  display: flex;
+  gap: 10px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  align-items: center;
+  background: linear-gradient(125deg, #272727 0%, #11101D 100%);
+}
+.discount br{
+  display: none;
+}
+.getstartedmob{
+  display: none;
+}
+.statistics{
+  margin-top: 93px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #7DE7EB;
+  font-family: 'Poppins';
+}
+.numbers{
+  color: #FFF;
+  font-size: 40px;
+}
+.advantages{
+  display: flex;
+  padding: 80px;
+}
+.business{
+  color: #FFF;
+  width: 55%;
+  /* border: 1px solid tomato; */
+}
+.business h1{
+  font-size: 48px;
+}
+.business p{
+  font-size: 18px;
+  color: #ffffffb3;
+}
+.rewardmenu{
+  width: 45%;
+  /* border: 2px solid grey; */
+  padding: 0;
+}
+.rewardmenu ul{
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+.rewardmenulist{
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px 25px;
+  gap: 20px;
+  background: transparent;
+  cursor: pointer;
+}
+.rewardmenulist:hover{
+  background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%)
+}
+.liststyle{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #01131A;
+  width: 50px;
+  height: 50px;
+}
+.rewardmenulist img{
+  background-color: #01131A;
+  border-radius: 50%;
+  padding: 5px;
+}
+.listbody h3{
+  margin: 0;
+  color: #FFF;
+}
+.listbody p{
+  margin: 0;
+  color: #ffffffb3;
+  font-size: 16px;
+}
+.transactions{
+  display: flex;
+  padding: 80px;
+}
+.transactfigure{
+  width: 55%;
+}
+.transactfigure img{
+  width: 90%;
+}
+.billing{
+  width: 45%;
+  color: #FFF;
+}
+.billing h1{
+  font-size: 48px;
+}
+.billing p{
+  font-size: 18px;
+  color: #ffffffb3;
+}
+.appstores{
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+.cardDeal{
+  display: flex;
+  padding: 80px;
+  color: #FFF;
+}
+.cardDealCaption{
+  width: 55%;
+}
+.cardDealCaption h1{
+  font-size: 48px;
+}
+.cardDealCaption p{
+  font-size: 18px;
+  color: #ffffffb3;
+}
+.cardDealimg{
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+.cardDealimg img{
+  width: 90%;
+}
+.footnote{
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  color: #FFF;
+}
+.footnote h1{
+  width: 50%;
+  font-size: 48px;
+}
+.footnote p{
+  width: 50%;
+  font-size: 18px;
+  color: #ffffffb3;
+}
+.commentsbox{
+  display: grid;
+  padding: 80px;
+  gap: 30px;
+  color: #FFF;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.comment{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.comment:hover{
+  background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+}
+.quotes{
+  width: 50px;
+}
+.commentprofile{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.commentprofile h4{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.commentbody{
+  font-size: 18px;
+  font-weight: 400;
+}
+.commentprofile p{
+  color: #ffffffb3;
+  margin: 0;
+  font-size: 16px;
+}
+.sponsors{
+  display: flex;
+  justify-content: center;
+}
+.service{
+  padding: 80px;
+  width: 100%;
+}
+.servicecontainer{
+  width: 100%;
+  padding: 72px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+}
+.servicetext{
+  width: 65%;
+  color: #FFF;
+}
+.servicetext h1{
+  font-size: 48px;
+}
+.servicetext p{
+  font-size: 16px;
+  color: #ffffffb3;
+}
+.servicebtn{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 450px) {
+  .hero{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .heroText{
+    width: 90%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .glare{
+    width: 100px;
+    height: 100px;
+    top: 120px;
+  }
+  .heroImage{
+    width: 100%;
+  }
+  .motto{
+    font-size: 30px;
+    text-align: center;
+  }
+  .discount{
+    width: 250px;
+  }
+  .discount br{
+    display: block;
+  }
+  .caption{
+    font-size: 12px;
+    text-align: center;
+  }
+  .caption br{
+    display: none;
+  }
+  .getstarted{
+    display: none;
+  }
+  .arrow{
+    display: none;
+  }
+  .getstartedmob{
+    display: block;
+    font-family: 'Poppins';
+    font-size: 18px;
+    background: #070A16;
+    padding: 10px 20px;
+    color: #7DE7EB;
+    border: 1px solid #7DE7EB;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .getstartedmob:hover{
+    color: #030712;
+    background-color: #7DE7EB;
+  }
+  .statistics{
+    flex-direction: column;
+  }
+  .glare2{
+    width: 200px;
+    height: 200px;
+  }
+  .advantages{
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  .business {
+    width: 100%;
+    text-align: center;
+  }
+  .business h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .business p{
+    font-size: 12px;
+  }
+  .business br{
+    display: none;
+  }
+  .rewardmenu{
+    width: 100%;
+  }
+  .transactions{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .transactfigure{
+    width: 100%;
+    text-align: center;
+  }
+  .billing {
+    width: 100%;
+    text-align: center;
+  }
+  .billing h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .billing p{
+    font-size: 12px;
+  }
+  .billing br{
+    display: none;
+  }
+  .cardDeal{
+    flex-direction: column;
+    padding: 10px;
+    gap: 40px;
+  }
+  .cardDealCaption{
+    width: 100%;
+    text-align: center;
+  }
+  .cardDealCaption h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .cardDealCaption p{
+    font-size: 12px;
+  }
+  .cardDealCaption br{
+    display: none;
+  }
+  .cardDealimg{
+    width: 100%;
+    justify-content: center;
+  }
+  .footnote{
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  .footnote h1{
+    width: 100%;
+    font-size: 30px;
+  }
+  .footnote p{
+    width: 100%;
+  }
+  .commentsbox{
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
+  .sponsors{
+    padding: 10px;
+  }
+  .sponsors img{
+    width: 100%;
+  }
+  .service{
+    padding: 20px;
+  }
+  .servicecontainer{
+    flex-direction: column;
+    padding: 15px;
+  }
+  .servicetext{
+    width: 100%;
+    text-align: center;
+  }
+  .servicetext br{
+    display: none;
+  }
+  .servicetext h1{
+    font-size: 30px;
+  }
+  .servicebtn{
+    width: 100%;
+  }
+}
