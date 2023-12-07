@@ -18,7 +18,7 @@ function Navbar() {
         <li>Features</li>
         <li>Solution</li>
       </ul>
-      <div className={styles.hamburger} onClick={()=> setDropdown(!dropdown)}>
+      <div className={styles.hamburger} onClick={()=> setDropdown((prev)=> !prev)}>
         <img src={hamburger} alt="" />
       </div>
       <ul className={dropdown? styles.navitemsmob : styles.close}>

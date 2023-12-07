@@ -330,6 +330,9 @@ button{
     align-items: center;
     gap: 20px;
   }
+  button{
+    cursor: none;
+  }
   .glare{
     width: 100px;
     height: 100px;
@@ -370,7 +373,6 @@ button{
     color: #7DE7EB;
     border: 1px solid #7DE7EB;
     border-radius: 10px;
-    cursor: pointer;
   }
   .getstartedmob:hover{
     color: #030712;
@@ -401,6 +403,9 @@ button{
   }
   .business br{
     display: none;
+  }
+  .rewardmenulist{
+    cursor: none;
   }
   .rewardmenu{
     width: 100%;
@@ -465,6 +470,9 @@ button{
   .commentsbox{
     padding: 10px;
     grid-template-columns: 1fr;
+  }
+  .comment{
+    clip-rule: none;
   }
   .sponsors{
     padding: 10px;

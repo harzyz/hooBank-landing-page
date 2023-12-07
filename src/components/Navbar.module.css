@@ -40,6 +40,7 @@
   .navwrapper{
     padding: 10px;
     position: relative;
+    cursor: none;
   }
   .hamburger{
     display: block;
