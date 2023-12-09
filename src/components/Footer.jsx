@@ -9,7 +9,7 @@ function Footer() {
     <footer className={styles.footerwrapper}>
       <div className={styles.footerbody}>
         <div>
-          <span className={styles.footerlogo}>
+          <span href="#Home" className={styles.footerlogo}>
             <img style={{width: '75px', height: '75px'}} src={logo} alt="" />
             <h1>Hoo<span style={{color: '#5CE1E6'}}>Bank</span></h1>
           </span>

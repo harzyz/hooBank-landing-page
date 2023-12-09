@@ -18,7 +18,7 @@ function Landingpage() {
 
   return (
     <main className={styles.wrapper}>
-      <section className={styles.hero}>
+      <section id="Home" className={styles.hero}>
         <div className={styles.heroText}>
           <div className={styles.glare}></div>
           <div className={styles.discount}>
@@ -87,9 +87,7 @@ function Landingpage() {
           <ul>
             {MenuData.map((item) => (
               <li key={item.id} className={styles.rewardmenulist}>
-                {/* <span className={styles.liststyle}> */}
                 <img src={item.img} alt="" />
-                {/* </span> */}
                 <span className={styles.listbody}>
                   <h3>{item.header}</h3>
                   <p>{item.body}</p>
