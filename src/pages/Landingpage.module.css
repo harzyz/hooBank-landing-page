@@ -45,18 +45,32 @@ button{
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 1px solid #7DE7EB;
+  border: 3px solid #7DE7EB;
   cursor: pointer;
-  animation-name: bouncy;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
+  backface-visibility: visible;
+	animation: flip 2s ease infinite;
 }
-@keyframes bouncy {
-  0% {top: 120px;}
-  25% {top: 150px;}
-  50% {top: 200px;}
-  75% {top: 150px;}
-  100% {top: 120px;}
+@keyframes flip {
+	0% {
+		transform: perspective(400px) rotateY(0);
+		animation-timing-function: ease-out;
+	}
+	40% {
+		transform: perspective(400px) translateZ(150px) rotateY(170deg);
+		animation-timing-function: ease-out;
+	}
+	50% {
+		transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+		animation-timing-function: ease-in;
+	}
+	80% {
+		transform: perspective(400px) rotateY(360deg) scale(.95);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: perspective(400px) scale(1);
+		animation-timing-function: ease-in;
+	}
 }
 .getstarted:hover{
   color: #030712;
