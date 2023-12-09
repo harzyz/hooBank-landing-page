@@ -47,6 +47,16 @@ button{
   border-radius: 50%;
   border: 1px solid #7DE7EB;
   cursor: pointer;
+  animation-name: bouncy;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes bouncy {
+  0% {top: 120px;}
+  25% {top: 150px;}
+  50% {top: 200px;}
+  75% {top: 150px;}
+  100% {top: 120px;}
 }
 .getstarted:hover{
   color: #030712;

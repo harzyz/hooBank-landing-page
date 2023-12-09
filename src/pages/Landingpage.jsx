@@ -39,7 +39,7 @@ function Landingpage() {
           <button className={styles.getstarted}>
             Get <br /> Started
           </button>
-          <img className={styles.arrow} src={arrowup} alt="" />
+          {/* <img className={styles.arrow} src={arrowup} alt="" /> */}
           <span className={styles.caption}>
             Our team of experts uses a methodology to identify
             <br />
