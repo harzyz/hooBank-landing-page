@@ -1,4 +1,6 @@
 .navwrapper{
+  max-width: 1440px;
+  margin: 0 auto;
   height: 100px;
   width: 100%;
   background: #030712;

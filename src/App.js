@@ -4,7 +4,7 @@ import Landingpage from './pages/Landingpage';
 
 function App() {
   return (
-    <div>
+    <div className='wrap'>
       <Navbar />
       <Landingpage />
     </div>
