@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Landingpage.module.css";
 import img1 from "../images/herorobotarm.png";
 import discount from "../images/Discount.png";
-import arrowup from "../images/Arrow - Up.svg";
+// import arrowup from "../images/Arrow - Up.svg";
 import Button from "../components/Button";
 import MenuData from "../data/MenuData";
 import transactions from "../images/transactions.png";

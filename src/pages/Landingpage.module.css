@@ -408,6 +408,7 @@ button{
   }
   .statistics{
     flex-direction: column;
+    padding: 10px;
   }
   .glare2{
     width: 200px;
